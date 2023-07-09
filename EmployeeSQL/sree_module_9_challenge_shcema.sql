@@ -12,8 +12,8 @@ DROP table titles;
 -- emp_title_id is the foriegn key on titles.title_id
 
 CREATE TABLE employees(
-	emp_no 			INT				PRIMARY KEY,
-	emp_title_id 	VARCHAR(10)		NOT NULL,
+	emp_no 			INT			PRIMARY KEY,
+	emp_title_id 		VARCHAR(10)		NOT NULL,
 	birth_date 		DATE,
 	first_name 		VARCHAR(30),
 	last_name 		VARCHAR(30),
