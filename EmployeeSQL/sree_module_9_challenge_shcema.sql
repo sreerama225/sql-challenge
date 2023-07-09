@@ -1,4 +1,4 @@
---------------- create new tables, columns as per the csv files --------------
+--------------- Drop and create new tables, columns as per the csv files --------------
 
 DROP table salaries;
 DROP table dept_emp;
